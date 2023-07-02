@@ -30,11 +30,11 @@ def main():
   """Prompts the user for the coefficients of the two linear equations and then prints the solution, if any."""
 
   a = int(input(""))
-  b = int(input(" "))
-  c = int(input(" "))
-  d = int(input(" "))
-  e = int(input(" "))
-  f = int(input(" "))
+  b = int(input(""))
+  c = int(input(""))
+  d = int(input(""))
+  e = int(input(""))
+  f = int(input(""))
 
   solution = brute_force_solution(a, b, c, d, e, f)
   if solution is None:
