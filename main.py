@@ -21,8 +21,7 @@ def brute_force_solution(a, b, c, d, e, f):
   for x in range(-10, 11):
     for y in range(-10, 11):
       if a * x + b * y == c and d * x + e * y == f:
-        return x y
-
+        return f"{x} {y}"
   return None
 
 
